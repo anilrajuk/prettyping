@@ -1,0 +1,15 @@
+Source: prettyping
+Section: net
+Priority: optional
+Maintainer: Anil Komarraju <anil.komarraju@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: http://denilson.sa.nom.br/prettyping
+
+Package: prettyping
+Architecture: all
+Multi-Arch: foreign
+Depends: awk, bash, iputils-ping
+Description: Wrapper script over ping
+ prettyping runs the standard ping in background and parses its output.
+ showing ping responses in a graphical way at the terminal.

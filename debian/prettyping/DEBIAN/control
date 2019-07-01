@@ -1,0 +1,13 @@
+Package: prettyping
+Version: 1.0-1
+Architecture: all
+Maintainer: Anil Komarraju <anil.komarraju@gmail.com>
+Installed-Size: 38
+Depends: awk, bash, iputils-ping
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://denilson.sa.nom.br/prettyping
+Description: Wrapper script over ping
+ prettyping runs the standard ping in background and parses its output.
+ showing ping responses in a graphical way at the terminal.
